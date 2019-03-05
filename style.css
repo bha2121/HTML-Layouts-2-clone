@@ -1,0 +1,173 @@
+
+body {
+    margin: 0;
+    background-attachment: fixed;
+    font-family: 'Raleway', sans-serif;
+   
+    
+    
+}
+
+header {
+
+    width: 100%;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.headerO {
+    color: orange;
+    font-size: 2rem;
+    font-weight: 800;
+    font: bold
+
+}
+
+.headerW{
+    color: white;
+    font-size: 5rem;
+    font-weight: 100;
+    
+    
+}
+
+nav {
+    height: 85px;
+    width: 100%;
+    background:rgba(41, 20, 20, 0.911);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.navL {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    
+}
+
+li {
+    cursor: pointer;
+}
+
+
+.navL :nth-child(1){
+    color: orange
+}
+
+.main {
+    height: 700px;
+    width: 100%;
+    
+    border: solid 2px black;
+    position: relative
+
+
+}
+
+.coffee{
+    width: 820px; 
+    position: absolute;
+    right: 400px;
+    top: 80px;
+    border-radius: 5px;
+
+    
+}
+
+.fresh {
+    position: absolute;
+    height: 380px;
+    width: 500px;
+    left: 400px;
+    top: 130px;
+    background: rgba(255, 254, 249, 0.87);
+    border-radius: 5px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.fresh :nth-child(1){
+    text-align: center;
+    font-weight: 900;
+    font-size: 18px ;
+}
+
+.fresh :nth-child(2){
+    text-align: center;
+    font-size: 40px ;
+}
+
+.fresh :nth-child(3){
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.visit {
+    background: orange;
+    color: white;
+    height: 60px;
+    width: 150px;
+    border-radius: 5px;
+    font-size: 15px;
+    position: relative;
+    left: 120px;
+    bottom: -90px;
+
+
+}
+
+.yellowBottom{
+    height: 450px;
+    width: 100%;
+    background: rgba(255, 166, 0, 0.897);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.whiteBox {
+    height: 300px;
+    width: 800px;
+    background: rgba(255, 254, 249, 0.87);
+    border-radius: 5px;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.whiteBox :nth-child(1){
+    text-align: center;
+    font-weight: 900;
+    font-size: 18px ;
+}
+
+.whiteBox :nth-child(2){
+    text-align: center;
+    font-size: 40px ;
+}
+
+.whiteBox :nth-child(3){
+    text-align: center;
+    font-size: 16px;
+}
+
+
+
