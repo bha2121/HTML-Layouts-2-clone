@@ -77,17 +77,19 @@ li {
 
 .coffee{
     width: 820px; 
-    position: absolute;
+    
     right: 400px;
     top: 80px;
     border-radius: 5px;
-
+    margin-top: 75px;
+    margin-left: 30%;
     
 }
 
 .fresh {
-    position: absolute;
+    
     height: 380px;
+    position: absolute;
     width: 500px;
     left: 400px;
     top: 130px;
@@ -96,6 +98,7 @@ li {
     padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
+    margin-left: -250px;
 
 }
 
@@ -169,5 +172,13 @@ li {
     font-size: 16px;
 }
 
-
+footer{
+    height: 100px;
+    width: 100%;
+    background:rgba(41, 20, 20, 0.911);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(175, 175, 175, 0.699);
+}
 
